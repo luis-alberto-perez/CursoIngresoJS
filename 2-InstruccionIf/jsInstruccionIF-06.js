@@ -5,19 +5,29 @@ persona es mayor de edad (mas de 18 años) o adolescente
 function mostrar()
 {
 	//tomo la edad  
-	var edad = txtIdEdad.value;
+	var edad; 
+	var msjMayorEdad;
+	var msjNiño;
+	var msjAdolescente;
+
+	msjMayorEdad ="Mayor de edad";
+	msjNiño = "Es un niño";
+	msjAdolescente = "Es un adolescente";
+
+	edad = txtIdEdad.value;
+
 	if (edad >= 18) 
 		{
-			txtIdEdad.value = ("Mayor de edad"); 
+			txtIdEdad.value = (msjMayorEdad); 
 		} 
 	else if (edad <= 12) 
 		{
-			txtIdEdad.value = ("es un niño");
+			txtIdEdad.value = (msjNiño);
 		}
 	else
 		{
-			txtIdEdad.value = ("Es un adolescente");
+			txtIdEdad.value = (msjAdolescente);
 		}
-
+   
 
 }//FIN DE LA FUNCIÓN

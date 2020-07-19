@@ -6,10 +6,15 @@ en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
 
-var sueldo = txtIdSueldo.value;
+	var sueldo; 
+	var aumento;
+
+	aumento = 10;
+	
+	sueldo = txtIdSueldo.value;
     sueldo = parseInt(sueldo);
   
-	sueldo = sueldo + (sueldo * 10)/100;
+	sueldo = sueldo + (sueldo * aumento)/100;
   	
 	txtIdResultado.value = sueldo;
 }

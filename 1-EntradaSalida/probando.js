@@ -1,12 +1,5 @@
-/*
-Al presionar el  botón, 
-se debe mostrar un mensaje como el siguiente "Esto funciona de maravilla"
-function mostrar()
-{
-	alert(" Esto funciona de maravilla");
-}
-*/
-function mostrar()
+/*ingresar nombre del producto, importe y precio por promp y mostrar los datos mas el precio final mas el aumento.*/
+function aumetarPrecio()
 {
 var nombreProducto;
 var importeProducto;
