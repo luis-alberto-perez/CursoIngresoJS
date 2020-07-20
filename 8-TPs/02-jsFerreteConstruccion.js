@@ -62,6 +62,6 @@ ancho = parseInt(ancho);
 areaTerreno = (largo * ancho)*2;
 cantidadDeBolsasCemento = areaTerreno * 2;
 cantidadDeBolsasCal = areaTerreno * 3;
-alert("Para realizar el contrapiso se necesitan "+ cantidadDeBolsasCemento + " bolsas de cemento y " + cantidadDeBolsasCal + " bolsas de cal") ; 
+alert("Para realizar el contrapiso se necesitan "+ cantidadDeBolsasCemento + " bolsas de cemento y " + cantidadDeBolsasCal + " bolsas de cal");
 	
 }
