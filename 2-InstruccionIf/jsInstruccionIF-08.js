@@ -6,12 +6,13 @@ function mostrar()
 	
 	if (edad < 18 & estado != "Soltero") 
 		{
-			alert ("nada"); 
+		 alert ("nada"); 
 		} 
-	else if (edad >=18 & estado = "Soltero") 
-		{
-			alert("es soltero y no menor ");
+	else
+		{ 
+		 if (edad >17 & estado =="Soltero") 
+		    {
+			 alert("es soltero y no menor ");
+			}
 		}
-}
-alert("que cosa");
 }//FIN DE LA FUNCIÓN

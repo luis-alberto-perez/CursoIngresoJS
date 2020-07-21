@@ -9,3 +9,5 @@ function mostrar()
  } 
 
 }//FIN DE LA FUNCIÓN
+
+// js if no busca el verdadero, sino el falso.

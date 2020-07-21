@@ -5,7 +5,7 @@ function mostrar()
 
 	edad = txtIdEdad.value;
 	
-	if (edad >= 18 ) 
+	if (edad > 18 || edad == 18) 
 	{
 	txtIdEdad.value = ("Es mayor de edad");
 	}  

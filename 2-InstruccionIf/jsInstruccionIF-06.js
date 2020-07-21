@@ -16,17 +16,20 @@ function mostrar()
 
 	edad = txtIdEdad.value;
 
-	if (edad >= 18) 
+	if (edad > 17) 
 		{
-			txtIdEdad.value = (msjMayorEdad); 
+		txtIdEdad.value = (msjMayorEdad); 
 		} 
-	else if (edad <= 12) 
+	else 
 		{
+		  if (edad < 13) 
+		     {
 			txtIdEdad.value = (msjNiño);
-		}
-	else
-		{
+		     }
+	     else
+		    {
 			txtIdEdad.value = (msjAdolescente);
+		    }
 		}
    
 
